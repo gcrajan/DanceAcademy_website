@@ -1,0 +1,16 @@
+{
+  "name": "danceacademy",
+  "version": "1.0.0",
+  "description": "this is the best website for dancers.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajan bro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20",
+    "pug": "^3.0.0"
+  }
+}
