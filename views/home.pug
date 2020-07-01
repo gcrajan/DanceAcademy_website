@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+ script(src="/static/index.js")
+
+block style
+ style
+   include ../static/style.css
+
+block content
+  nav#navbar
+   ul
+    div.logo
+     img(src='/static/logo.jpg')
+    li #[a(href='/') Home]
+    li #[a(href='/') About]
+    li #[a(href='/') Services]
+    li #[a(href='/') Class Info]
+    li #[a(href='/contact') Contact Us]
+  
+  section#introsection
+   div Welcome To Dance Academy
+   div.small Get ready to dance!!!
+  section#missionsection
+   h1.lines Our mission
+    div.mainbox
+     div.box
+      h2 Perfection
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ipsa doloremque? Ex, error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat laboriosam adipisci eius, culpa explicabo provident! Inventore optio voluptate cum delectus molestias aliquam reiciendis distinctio beatae maxime nisi libero suscipit modi atque sequi odio praesentium dolore quae necessitatibus, autem saepe nostrum facilis? In, officiis atque!
+     div.box
+      h2 Unique
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ipsa doloremque? Ex, error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat laboriosam adipisci eius, culpa explicabo provident! Inventore optio voluptate cum delectus molestias aliquam reiciendis distinctio beatae maxime nisi libero suscipit modi atque sequi odio praesentium dolore quae necessitatibus, autem saepe nostrum facilis? In, officiis atque!
+     div.box
+      h2 Identity
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ipsa doloremque? Ex, error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat laboriosam adipisci eius, culpa explicabo provident! Inventore optio voluptate cum delectus molestias aliquam reiciendis distinctio beatae maxime nisi libero suscipit modi atque sequi odio praesentium dolore quae necessitatibus, autem saepe nostrum facilis? In, officiis atque!
+  section#servicessection
+   h1.lines Sponsors
+   div.img
+     img(src='/static/logo1.png',class='images')
+     img(src='/static/logo2.png',class='images')
+     img(src='/static/logo3.png',class='images')
+     img(src='/static/logo4.png',class='images')
+  
